@@ -50,6 +50,7 @@ Runs occlusion sensitivity analysis on one picture by covering one of 49 patches
 ### `counterfactual.py`
 
 Runs counterfactual analysis on one picture by covering one patch at the time (in descending order of importance) in order to record the minimum number of patches needed to switch the prediction.
+
 ---
 
 ## Model
