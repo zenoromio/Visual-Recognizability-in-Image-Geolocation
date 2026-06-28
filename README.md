@@ -42,14 +42,14 @@ https://maps.googleapis.com/maps/api/streetview?size=336x336&location={lat},{lon
 
 ### `occlusion.py`
 
-Runs occlusion sensitivity analysis on a folder of street-level images. For each image, the script:
+Runs occlusion sensitivity analysis on one picture by covering one of 49 patches at the time in order to measure the importance of that patch to the final prediction.
 
 
 ---
 
 ### `counterfactual.py`
 
-
+Runs counterfactual analysis on one picture by covering one patch at the time (in descending order of importance) in order to record the minimum number of patches needed to switch the prediction.
 ---
 
 ## Model
